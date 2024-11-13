@@ -58,10 +58,8 @@ body {
   font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
-  transform: rotateY(180deg); /*aqui nesse bloco havia erros:
-  - na linha 61 havia um espaço entre os dois pontos e o hover (.cartao: hover); 
-  - na linha 62, havia aspas simples em 180deg ('180deg'); */
+.cartao.active .cartao__conteudo {
+  transform: rotateY(180deg);
 }
 
 .cartao__conteudo__pergunta, 
